@@ -30,7 +30,14 @@ For plotting:
 - If you plan only one night stay, better to book in advance, since amount of apartments for you search will be limited and priced on that type of apartment is a bit cheaper, thus it can be already booked.
 - If you want a bit cheaper accommodation, go outside of city centre, there is a lot of nice residential areas in Amsterdam.
 - There is clear seasonality. High season is from April to beginning of October. The most expensive dates are New Year eve, Kind's day and Amsterdam marathon. 
-- Smart selection of additional features can improve predictions of prices.
+
+As I didn't focus on building the best prediction model, there are lots of posibilities to make improvement here, for ex.:
+
+- Smart selection of additional features,
+- Generate new features,
+- Use text columns to generater new features,
+- Instead of removing rows with missing values try smart ways to impute this values,
 - To improve prediction try different regression models.
+
 
 Based on this analysis I wrote the article on [Medium.com](https://medium.com/@lena.karaseva/do-you-plan-to-visit-amsterdam-what-do-you-need-to-know-about-airbnb-in-amsterdam-28e52bd00d26)
